@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Get to know me</title>
+		<link rel="stylesheet" href="info.css">
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+	</head>
+
+
+	<body>
+
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+		<script type="text/javascript">
+			mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			    mybutton.style.display = "block";
+			  } else {
+			    mybutton.style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}
+		</script>
+
+
+		<header>
+			
+			<div id="navbar">
+				<ul >
+					<li><a href="#About">About</a></li>
+					<li><a href="#Social">Social</a></li>
+					<li><a href="feedback.html">Contact</a></li>
+				</ul>
+			</div>
+
+			<div class="start">
+				<h1> Get to know me.</h1>
+
+				<div class="button">
+					<a href="photo.html" class="btn btn-one"> I love skies ! </a>
+			</div>
+
+		</header>
+
+		<section id="About">
+
+			<div class="bout">
+				<h2 style="color: black"> About</h2>
+				<img src="https://cdn1.imggmi.com/uploads/2020/5/14/ca0083f5a1ab6af4ae3b5383d1ce15a9-full.jpg">
+				
+				
+				<p>Name given Naajihah Mustapa by my late grandfather. I'm 21 years old this 16th June. I used to dream to be an architect but I'm fall in love with computer science although it is a litte bit difficult but passion comes first. I'm fourth child in my family. The stubborn and rebels one but my parents still love me. Both of my parents are teacher. Now here I am as a computer science student at UiTM Kampus Kuala Terengganu. Full time student. I'm glad that I could survive my studies for 3 semesters already. Never thought that degree life would be so hard.  </p></br>
+				<p>Here a qoute from me; Don't let your sadness destroy your happiness :) </p>
+
+			</div>
+			
+		</section>
+
+		<section id="Social">
+
+			<div class="soc">
+				<h2> Social </h2>
+					<a href="https://www.instagram.com/naajihahm_/"><img src="33.png" style="width: 60px; height: 60px" alt="Instagram"> <p style="color: white;">@naajihahm_</p></a>
+					<a href="https://www.facebook.com/NaajihahMustapa16">
+					<img src="22.png" style="width: 50px; height: 50px" alt="Facebook"> <p style="color: white;">Naajihah Mustapa</p></a>
+			</div>
+			
+		</section>
+
+		<div id="footer">
+		</br>
+		</br>
+
+		&copy; NaajihahM. All Rights Reserved
+
+		</div>
+
+	</body>
+</html>

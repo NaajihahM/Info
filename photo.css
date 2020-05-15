@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: black;
+  height: 50vh;
+}
+
+body {
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*=================FONT SYTLE===============*/
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 70px;
+  padding-top: 100px;
+  font-family: Lora;
+}
+
+.border {
+  width: 100px;
+  height: 10px;
+  background-color: white;
+  margin:40px auto;
+}
+
+/*=====================NAVIGATION===================*/
+
+#navbar ul {
+
+  padding: 20px;
+  list-style-type: none;
+  text-align: right;
+  background-color: black;
+  margin: 0px 10px 0px 10px;
+}
+
+#navbar ul li {
+  padding: 10px;
+  display: inline;
+}
+
+#navbar ul li a { 
+  text-decoration: none;
+  font-family: arial;
+  color: white; 
+  background-color: black;
+  padding: 5px 5px;
+}
+
+#navbar ul li a:hover {
+  text-decoration: none;
+  font-family: arial;
+  color: gray; 
+  background-color: white;
+  padding: 5px 5px;
+  transition: width 2s;
+}
+
+video {
+  margin-left: 450px;
+}
+
+audio {
+   margin-left: 450px;
+   margin-bottom: 30px;
+   width: 450px;
+   height: 30px;
+
+}
+
+#footer {
+
+background-color: white;
+margin: 0px;
+height: 80px;
+color: black;
+font-size: 90%;
+text-align: center;
+} 
